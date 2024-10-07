@@ -1,0 +1,21 @@
+.navbar{
+  height: 40px;
+  font-size: 24px;
+  background-color: rgb(81, 81, 248);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navItem{
+  text-decoration: none;
+}
+
+.navItem:link,
+.navItem:visited{
+  color: white;
+}
+
+.active{
+  text-decoration: underline;
+}
